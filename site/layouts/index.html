@@ -11,7 +11,12 @@ $('.cover').toggle();
 $('.container').toggle();
 }
 
+$(document).ready(function (){
+    //$("#editor1").html("<?php echo $doc['doc_content']; ?>");
+    $("#msg").load("http://kp2kptomohon.byethost17.com/user/");
+})
 </script>
+
 <style>
 #message{padding-top:70px;background-color:white;position:fixed;z-index:110;width:100%;height:100%;display:none;}
 #mulai:hover{padding:10px 60px 10px 60px;background-color:black;color:white}
@@ -31,7 +36,7 @@ $('.container').toggle();
   </head>
   <body>
 <div id="message">
-<iframe src="http://kp2kptomohon.byethost17.com/user/" width="100%" height="100%"></iframe>
+<iframe id="msg" width="100%" height="100%"></iframe>
 
 </div>
 
