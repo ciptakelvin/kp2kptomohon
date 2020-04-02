@@ -3,6 +3,7 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
+<link rel="stylesheet" href="http://kp2kp.byethost17.com/mystyle.css">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <script src="http://kp2kp.byethost17.com/function.js"></script>
 <script>
@@ -43,10 +44,11 @@ refresh(time);
   </head>
   <body>
 <div id="message">
-<iframe id="msg" width="100%" height="100%"></iframe>
-
+<div id="sender">
+<input placeholder="Tanya Sesuatu.." id="messageBox">
+<img onclick="sendMessage('You',$("messageBox").val())" id="messageSubmit src="paper-plane-solid.svg">
 </div>
-
+</div>
 
     <nav id='navi' class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">KP2KP Tomohon</a>
