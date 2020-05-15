@@ -5,16 +5,21 @@
     <meta charset="utf-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-<script>
-function openMessage(){
-$('#message').toggle();
-$('.cover').toggle();
-$('.container').toggle();
-}
-
-
+	  
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5ebe18e28ee2956d73a14a90/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
 </script>
+<!--End of Tawk.to Script-->
+
 
 <style>
   #messageUserBlock{
@@ -87,19 +92,7 @@ $('.container').toggle();
 }
 
 </style>
-<script type="text/javascript" src="http://kp2kptomohon.byethost17.com/function.js"></script>
-	<script type="text/javascript">
-		$(document).ready(function(){
-			refresh(1);
-		});
-		function refresh(time){
-			setTimeout(function() {
-				getMessage();
-				refresh(time);
-			}, time);
-			
-		}
-	</script>
+
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -107,16 +100,10 @@ $('.container').toggle();
     <title>KP2KP Tomohon</title>
   </head>
   <body>
-<div id="message">
-  <div id="sender">
-	<input placeholder="Tanya Sesuatu.." id='messageBox' type="text">
-	<img onclick="sendMessage('You',$('#messageBox').val())" id="messageSubmit" src="http://kp2kptomohon.byethost17.com/paper-plane-solid.svg">
-</div>
-</div>
 
     <nav id='navi' class="fixed-top navbar navbar-expand-lg navbar-light bg-light">
   <a class="navbar-brand" href="/">KP2KP Tomohon</a>
-  <i onclick="openMessage()" class="fa fa-commenting" style="font-size:24px;float:right"></i>
+
   
 
   
